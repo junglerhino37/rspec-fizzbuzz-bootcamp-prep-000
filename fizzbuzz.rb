@@ -6,6 +6,6 @@ def fizzbuzz(n)
 elsif(n%3==0)
     puts "Fizz"
   elsif(n%5==0)
-    puts "Buzz"
+    return "Buzz"
   end
 end
